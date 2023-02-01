@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="apple-touch-icon" sizes="180x180" href="./images/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="./images/favicon-16x16.png">
+  <link rel="manifest" href="./images/site.webmanifest">
+  <title>Khabib Nurmagomedov | Profile Card</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./css/styles.css">
+</head>
+<body>
+  <main class="profile-card"> <!-- PROFILE CARD SECTION -->
+    <picture class="profile-card__banner-section">
+      <source media="(max-width: 600px)" srcset="./images/card-bg-mobile.webp">
+      <source media="(min-width: 600px)" srcset="./images/card-bg.webp">
+      <img src="./images/card-bg.webp" alt="" aria-hidden="true" loading="lazy" class="profile-card__banner">
+    </picture>
+    <section class="profile-card__profile">
+        <div class="profile-card__avatar"></div>
+      <section class="profile-card__bio">
+        <h1 class="profile-card__profile-name">khabib nurmagomedov</h1>
+        <h2 class="profile-card__profile-name profile-card__profile-name-secondary">Eagle Says, "Alhamdullilah"</h2>
+        <p class="profile-card__profile-profession">Mixed martial artist</p>
+        <p class="profile-card__profile-profession profile-card__profile-profession-secondary">"God gaved me everything"</p>
+      </section>
+      <section class="profile-card__limestones">
+        <h2 class="profile-card__limestone-count">32.2M</h2>
+        Followers
+      </section>
+      <section class="profile-card__limestones">
+        <h2 class="profile-card__limestone-count">29-0</h2>
+        Record
+      </section>
+      <section class="profile-card__limestones">
+        <h2 class="profile-card__limestone-count">10B+</h2>
+        Likes
+      </section>
+    </section>
+  </main>
+
+  <footer class="author-link">  <!-- AUTHOR REFERRAL LINK SECTION -->
+    <span>&copy;</span>
+    <a href="https://www.github.com/0xabdulkhalid/" class="link" target="_blank">0xabdulkhalid</a> <span class="bar">|</span>
+    <a href="https://www.github.com/0xabdulkhalid/order-summary-component/" class="link" target="_blank">Source Code</a>
+  </footer>
+</body>
+</html>
