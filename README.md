@@ -18,9 +18,9 @@ This project is a solution to the [Profile card component challenge on Frontend 
 
 - |||
   | :----- | :-----: |
-  | Live Preview: | [click here](#) |
-  | Frontendmentor Post: | [click here](#) |
-  | Original Repository (Non-Remastered): | [click here](#) |
+  | Live Preview: | [click here](https://0xabdulkhalid.github.io/profile-card-component-remastered/) |
+  | Frontendmentor Post: | [click here](https://www.frontendmentor.io/solutions/profile-card-component-remastered-vanilla-css-easter-egg--dQ9XjrgHA) |
+  | Original Repository (Non-Remastered): | [click here](https://github.com/0xabdulkhalid/profile-card-component) |
   |||
 
 <br>
