@@ -1,7 +1,18 @@
+@font-face {
+    font-family: "KumbhSans Regular";
+    src: url('./KumbhSans-Regular.ttf');
+  }
+@font-face {
+    font-family: "KumbhSans Bold";
+    src: url('./KumbhSans-Bold.ttf');
+  }
+
 :root {
     --very-dark-desaturated-blue: hsl(229, 23%, 23%);
     --dark-grayish-blue: hsl(227, 10%, 46%);
     --dark-grey: hsl(0, 0%, 59%);
+    --ff-regular: "KumbhSans Regular";
+    --ff-bold: "KumbhSans Bold";
 }
 
 * {
@@ -16,8 +27,10 @@ body {
     background-size: cover;
     display: grid;
     place-items: center;
-    font-family: 'Kumbh Sans', sans-serif;
+    font-family: var(--ff-regular), sans-serif;
 }
+
+h1, h2 { font-family: var(--ff-bold); font-weight: 500;}
 
 .profile-card {
     width: 85%;
@@ -172,6 +185,10 @@ body {
         background-repeat: no-repeat;
     }
 
+    .profile-card__banner {
+        transform: translateY(-15px) scale(1.01);
+    }
+
     /*
         ANIMATABLE ELEMENTS INSIDE PROFILE CARD
     */
@@ -196,14 +213,14 @@ body {
     */
     .profile-card:hover > .profile-card__banner-section > 
     .profile-card__banner{
-        transform: scale(1.4) translateY(-120px);
+        transform: scale(1.4) translateY(-140px);
         filter: brightness(1);
     }
     .profile-card:hover > .profile-card__profile > 
     .profile-card__avatar {
         transform: scale(1.25);
-        background: url(../images/alhamdullilah.gif);
-        background-size: 100%;
+        background: url(../images/alhamdullilah.gif) ;
+        background-size: 100%, 100%;
         box-shadow: inset 0 0 10px white;
     }
     .profile-card:hover > .profile-card__profile >
